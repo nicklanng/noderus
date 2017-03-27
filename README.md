@@ -1,4 +1,6 @@
 # noderus
+[![npm version](https://badge.fury.io/js/noderus.svg)](https://badge.fury.io/js/noderus)
+
 An implementation of Logrus's log output in Node.js apps.
 
 If NODE_ENV is set to 'development', or not set at all, then logs will be produced in a structured text format, with field names color-coded to indicate log level.
