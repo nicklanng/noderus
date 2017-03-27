@@ -1,6 +1,6 @@
 const { setStandardFields } = require('./lib/standardFields')
 const { info, warn, error, fatal } = require('./lib/basic')
-const http = require('./lib/http')
+const { logRequest, logResponse } = require('./lib/http')
 
 module.exports = {
   setStandardFields,
@@ -8,5 +8,6 @@ module.exports = {
   warn,
   error,
   fatal,
-  http
+  logRequest,
+  logResponse
 }
