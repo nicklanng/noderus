@@ -21,7 +21,7 @@ All logs are written to `stdout`, as this library is primarily aimed at Dockeriz
 
 ## setStandardFields
 
-[lib/standardFields.js:12-19](https://github.com/nicklanng/noderus/blob/05b8fca8708f8d2921b35857380776e7ed375c2c/lib/standardFields.js#L12-L19 "Source code on GitHub")
+[lib/standardFields.js:12-19](https://github.com/nicklanng/noderus/blob/28b0d6b28f289e4df7af2dec7c3470cb5bfac3e9/lib/standardFields.js#L12-L19 "Source code on GitHub")
 
 Sets up the default set of fields to be logged with every message.
 Call this before using the logger.
@@ -33,7 +33,7 @@ Call this before using the logger.
 
 ## info
 
-[lib/basic.js:49-49](https://github.com/nicklanng/noderus/blob/05b8fca8708f8d2921b35857380776e7ed375c2c/lib/basic.js#L49-L49 "Source code on GitHub")
+[lib/basic.js:49-49](https://github.com/nicklanng/noderus/blob/28b0d6b28f289e4df7af2dec7c3470cb5bfac3e9/lib/basic.js#L49-L49 "Source code on GitHub")
 
 Forwards to `console.log`.
 Combines the fields provided with the standard fields.
@@ -45,7 +45,7 @@ Combines the fields provided with the standard fields.
 
 ## warn
 
-[lib/basic.js:58-58](https://github.com/nicklanng/noderus/blob/05b8fca8708f8d2921b35857380776e7ed375c2c/lib/basic.js#L58-L58 "Source code on GitHub")
+[lib/basic.js:58-58](https://github.com/nicklanng/noderus/blob/28b0d6b28f289e4df7af2dec7c3470cb5bfac3e9/lib/basic.js#L58-L58 "Source code on GitHub")
 
 Forwards to `console.warn`.
 Combines the fields provided with the standard fields.
@@ -57,7 +57,7 @@ Combines the fields provided with the standard fields.
 
 ## error
 
-[lib/basic.js:67-67](https://github.com/nicklanng/noderus/blob/05b8fca8708f8d2921b35857380776e7ed375c2c/lib/basic.js#L67-L67 "Source code on GitHub")
+[lib/basic.js:67-67](https://github.com/nicklanng/noderus/blob/28b0d6b28f289e4df7af2dec7c3470cb5bfac3e9/lib/basic.js#L67-L67 "Source code on GitHub")
 
 Forwards to `console.error`.
 Combines the fields provided with the standard fields.
@@ -69,7 +69,7 @@ Combines the fields provided with the standard fields.
 
 ## fatal
 
-[lib/basic.js:77-80](https://github.com/nicklanng/noderus/blob/05b8fca8708f8d2921b35857380776e7ed375c2c/lib/basic.js#L77-L80 "Source code on GitHub")
+[lib/basic.js:77-80](https://github.com/nicklanng/noderus/blob/28b0d6b28f289e4df7af2dec7c3470cb5bfac3e9/lib/basic.js#L77-L80 "Source code on GitHub")
 
 Forwards to `console.error`.
 Combines the fields provided with the standard fields.
@@ -82,7 +82,7 @@ NOTE: Also exits the process with a code of 1.
 
 ## logRequest
 
-[lib/http.js:24-36](https://github.com/nicklanng/noderus/blob/05b8fca8708f8d2921b35857380776e7ed375c2c/lib/http.js#L24-L36 "Source code on GitHub")
+[lib/http.js:24-36](https://github.com/nicklanng/noderus/blob/28b0d6b28f289e4df7af2dec7c3470cb5bfac3e9/lib/http.js#L24-L36 "Source code on GitHub")
 
 Takes an object representing an HTTP request and a message.
 Creates a set of logging fields to extract certain data from the request
@@ -111,7 +111,7 @@ logRequest(request, 'HTTP request')
 
 ## logResponse
 
-[lib/http.js:60-73](https://github.com/nicklanng/noderus/blob/05b8fca8708f8d2921b35857380776e7ed375c2c/lib/http.js#L60-L73 "Source code on GitHub")
+[lib/http.js:60-73](https://github.com/nicklanng/noderus/blob/28b0d6b28f289e4df7af2dec7c3470cb5bfac3e9/lib/http.js#L60-L73 "Source code on GitHub")
 
 Takes an object representing an HTTP response and a message.
 Creates a set of logging fields to extract certain data from the response
