@@ -1,6 +1,6 @@
 {
   "name": "noderus",
-  "version": "0.2.3",
+  "version": "0.3.0",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
@@ -23,6 +23,6 @@
     "string.prototype.padend": "^3.0.0"
   },
   "devDependencies": {
-    "documentation": "^4.0.0-beta.18"
+    "documentation": "^12.0.3"
   }
 }
