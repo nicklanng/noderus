@@ -42,55 +42,55 @@ setStandardFields(name, version)
 
 ## trace
 
-[lib/basic.js:49-49][22]
+[lib/basic.js:48-48][22]
 
 Forwards to `console.log`.
 Combines the fields provided with the standard fields.
 
 ### Parameters
 
--   `fields` **[object][23]?** The collection of additional fields to log with the message
 -   `msg` **[string][21]** The message itself
+-   `fields` **[object][23]?** The collection of additional fields to log with the message
 
 ## info
 
-[lib/basic.js:58-58][24]
+[lib/basic.js:57-57][24]
 
 Forwards to `console.log`.
 Combines the fields provided with the standard fields.
 
 ### Parameters
 
--   `fields` **[object][23]?** The collection of additional fields to log with the message
 -   `msg` **[string][21]** The message itself
+-   `fields` **[object][23]?** The collection of additional fields to log with the message
 
 ## warn
 
-[lib/basic.js:67-67][25]
+[lib/basic.js:66-66][25]
 
 Forwards to `console.warn`.
 Combines the fields provided with the standard fields.
 
 ### Parameters
 
--   `fields` **[object][23]?** The collection of additional fields to log with the message
 -   `msg` **[string][21]** The message itself
+-   `fields` **[object][23]?** The collection of additional fields to log with the message
 
 ## error
 
-[lib/basic.js:76-76][26]
+[lib/basic.js:75-75][26]
 
 Forwards to `console.error`.
 Combines the fields provided with the standard fields.
 
 ### Parameters
 
--   `fields` **[object][23]?** The collection of additional fields to log with the message
 -   `msg` **[string][21]** The message itself
+-   `fields` **[object][23]?** The collection of additional fields to log with the message
 
 ## fatal
 
-[lib/basic.js:86-89][27]
+[lib/basic.js:85-88][27]
 
 Forwards to `console.error`.
 Combines the fields provided with the standard fields.
@@ -98,8 +98,8 @@ NOTE: Also exits the process with a code of 1.
 
 ### Parameters
 
--   `fields` **[object][23]?** The collection of additional fields to log with the message
 -   `msg` **[string][21]** The message itself
+-   `fields` **[object][23]?** The collection of additional fields to log with the message
 
 ## logRequest
 
@@ -198,22 +198,22 @@ logResponse(response, 'HTTP response')
 
 [19]: #examples-2
 
-[20]: https://git@github.com/:nicklanng/noderus/blob/068d3c9522657bd29febf8a366373f474bf5e005/lib/standardFields.js#L17-L24 "Source code on GitHub"
+[20]: https://git@github.com/:nicklanng/noderus/blob/39c0d742d6237d72ce71dcbe2e93f544f87dfefa/lib/standardFields.js#L17-L24 "Source code on GitHub"
 
 [21]: https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String
 
-[22]: https://git@github.com/:nicklanng/noderus/blob/068d3c9522657bd29febf8a366373f474bf5e005/lib/basic.js#L49-L49 "Source code on GitHub"
+[22]: https://git@github.com/:nicklanng/noderus/blob/39c0d742d6237d72ce71dcbe2e93f544f87dfefa/lib/basic.js#L48-L48 "Source code on GitHub"
 
 [23]: https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object
 
-[24]: https://git@github.com/:nicklanng/noderus/blob/068d3c9522657bd29febf8a366373f474bf5e005/lib/basic.js#L58-L58 "Source code on GitHub"
+[24]: https://git@github.com/:nicklanng/noderus/blob/39c0d742d6237d72ce71dcbe2e93f544f87dfefa/lib/basic.js#L57-L57 "Source code on GitHub"
 
-[25]: https://git@github.com/:nicklanng/noderus/blob/068d3c9522657bd29febf8a366373f474bf5e005/lib/basic.js#L67-L67 "Source code on GitHub"
+[25]: https://git@github.com/:nicklanng/noderus/blob/39c0d742d6237d72ce71dcbe2e93f544f87dfefa/lib/basic.js#L66-L66 "Source code on GitHub"
 
-[26]: https://git@github.com/:nicklanng/noderus/blob/068d3c9522657bd29febf8a366373f474bf5e005/lib/basic.js#L76-L76 "Source code on GitHub"
+[26]: https://git@github.com/:nicklanng/noderus/blob/39c0d742d6237d72ce71dcbe2e93f544f87dfefa/lib/basic.js#L75-L75 "Source code on GitHub"
 
-[27]: https://git@github.com/:nicklanng/noderus/blob/068d3c9522657bd29febf8a366373f474bf5e005/lib/basic.js#L86-L89 "Source code on GitHub"
+[27]: https://git@github.com/:nicklanng/noderus/blob/39c0d742d6237d72ce71dcbe2e93f544f87dfefa/lib/basic.js#L85-L88 "Source code on GitHub"
 
-[28]: https://git@github.com/:nicklanng/noderus/blob/068d3c9522657bd29febf8a366373f474bf5e005/lib/http.js#L24-L36 "Source code on GitHub"
+[28]: https://git@github.com/:nicklanng/noderus/blob/39c0d742d6237d72ce71dcbe2e93f544f87dfefa/lib/http.js#L24-L36 "Source code on GitHub"
 
-[29]: https://git@github.com/:nicklanng/noderus/blob/068d3c9522657bd29febf8a366373f474bf5e005/lib/http.js#L60-L73 "Source code on GitHub"
+[29]: https://git@github.com/:nicklanng/noderus/blob/39c0d742d6237d72ce71dcbe2e93f544f87dfefa/lib/http.js#L60-L73 "Source code on GitHub"
